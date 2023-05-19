@@ -1,0 +1,36 @@
+.employment-type-heading,
+.salary-range-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.employment-type-list,
+.salary-range-list {
+  margin: 0;
+  padding: 0px 0px 20px 10px;
+  border-bottom: 2px solid #7e858e;
+}
+
+.employment-type-item,
+.salary-range-item {
+  list-style-type: none;
+  padding: 2px 0px;
+}
+
+.employment-type-label,
+.salary-range-label {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #b1b3b5;
+}
+
+.employment-type-checkbox,
+.salary-range-checkbox {
+  margin: 3px 8px 3px 4px;
+  cursor: pointer;
+}
+
+.salary-range-list {
+  border-bottom: none;
+}

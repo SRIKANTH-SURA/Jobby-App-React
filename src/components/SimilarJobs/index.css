@@ -1,0 +1,29 @@
+.similar-jobs-item {
+  background-color: #272727;
+  padding: 15px;
+  border-radius: 15px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.similar-jobs-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: bold;
+  width: 85%;
+  margin: 15px auto;
+}
+
+@media (min-width: 768px) {
+  .similar-jobs-item {
+    padding: 15px;
+    width: 330px;
+    margin-right: 20px;
+  }
+
+  .similar-jobs-heading {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,157 @@
+.job-item-details-container {
+  width: 90%;
+  margin: 15px auto;
+  background-color: #272727;
+  padding: 15px;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.job-description {
+  margin-top: 0px;
+}
+
+.company-website-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company-website-link a {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #6366f1;
+  text-decoration: none;
+}
+
+.link-icon {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .job-item-details-container {
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+  }
+  .job-title,
+  .job-rating {
+    font-size: 22px;
+  }
+  .job-location,
+  .job-type,
+  .job-package {
+    font-size: 18px;
+  }
+  .job-description {
+    font-size: 20px;
+  }
+  .job-description-heading {
+    font-size: 26px;
+  }
+  .company-website-link a {
+    font-size: 22px;
+  }
+  .link-icon {
+    font-size: 16px;
+  }
+}
+
+.skills-heading,
+.company-life-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.skills-list {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.skill-img {
+  width: 40px;
+  margin-right: 15px;
+}
+
+.skill-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .skills-heading,
+  .company-life-heading {
+    font-size: 26px;
+  }
+
+  .skill-item {
+    width: 33%;
+  }
+
+  .skill-img {
+    width: 60px;
+  }
+
+  .skill-name {
+    font-size: 18px;
+  }
+}
+
+.company-life-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-life-card-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #dcdcdc;
+  line-height: 1.3;
+}
+
+.company-life-card-img {
+  width: 100%;
+}
+
+.similar-jobs-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .company-life-card-description {
+    font-size: 20px;
+    width: 60%;
+    margin: 0;
+    margin-right: 20px;
+  }
+
+  .company-life-card-img {
+    width: 40%;
+  }
+
+  .company-life-card {
+    flex-direction: row;
+  }
+
+  .similar-jobs-container {
+    width: 85%;
+    margin: 30px auto;
+  }
+}
